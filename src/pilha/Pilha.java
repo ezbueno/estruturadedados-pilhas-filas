@@ -5,6 +5,7 @@ import static java.util.Objects.isNull;
 import java.util.Objects;
 
 public class Pilha {
+	
 	private No refNoEntradaPilha;
 	
 	public Pilha() {
