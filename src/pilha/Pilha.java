@@ -2,8 +2,6 @@ package pilha;
 
 import static java.util.Objects.isNull;
 
-import java.util.Objects;
-
 public class Pilha {
 	
 	private No refNoEntradaPilha;
@@ -45,7 +43,7 @@ public class Pilha {
 		No noAuxiliar = this.refNoEntradaPilha;
 		
 		while (true) {
-			if (!Objects.isNull(noAuxiliar)) {
+			if (!isNull(noAuxiliar)) {
 				sb.append("[No{dado=" + noAuxiliar.getDado() + "}]\n");
 				noAuxiliar = noAuxiliar.getRefNo();
 			} else {
